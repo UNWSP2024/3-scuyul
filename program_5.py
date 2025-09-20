@@ -1,6 +1,8 @@
 # Hot Dog Program
 import program_2  # make sure program_2 exists and is needed
 
+#Griffin Corniea 9/19/25 Hot Doger
+
 # Prices
 TAX_RATE = 0.07
 price = 0

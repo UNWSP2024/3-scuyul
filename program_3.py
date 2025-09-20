@@ -1,4 +1,4 @@
-# Programming Excersize 3-13
+#Griffin Corniea 9/19/25 Shiping caculator
 
 # The Fast Freight Shipping Company charges the following rates:
 
