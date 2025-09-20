@@ -1,4 +1,4 @@
-# Programming Excersize 3-13
+#Griffin Corniea 9/19/25 Shiping caculator
 
 # The Fast Freight Shipping Company charges the following rates:
 
@@ -12,14 +12,25 @@
 def weight_conversion(weight):
     # Calculate the shipping charge.
     shippingCost = 0.0
-    ######################
-    # WRITE YOUR CODE HERE
-    ######################
-    
+
+def weight_conversion(weight):
+    # Calculate the shipping charge based on weight
+    if weight <= 2:
+        shippingCost = weight * 1.50
+    elif weight <= 6:
+        shippingCost = weight * 3.00
+    elif weight <= 10:
+        shippingCost = weight * 4.00
+    else:
+        shippingCost = weight * 4.75
+
+    return shippingCost
+
+
     return shippingCost
 
 #### This piece of the code has been done for you,
-#### you only need to worry about the actual shipping 
+#### you only need to worry about the actual shipping
 #### charge logic in the weight_conversion function
 if __name__ == '__main__':
     # Local variables
